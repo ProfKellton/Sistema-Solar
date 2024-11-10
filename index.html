@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planetas</title>
+    <link rel="stylesheet" href="planetas.css">
+</head>
+<body>
+    <h1>Sistema Solar</h1>
+    <section class="sliders">
+        <div class="div1" onclick="showInfo('mercurio')"></div>
+        <div class="div2" onclick="showInfo('venus')"></div>
+        <div class="div3" onclick="showInfo('terra')"></div>
+        <div class="div4" onclick="showInfo('lua')"></div>
+        <div class="div5" onclick="showInfo('marte')"></div>
+        <div class="div6" onclick="showInfo('jupiter')"></div>
+        <div class="div7" onclick="showInfo('saturno')"></div>
+        <div class="div8" onclick="showInfo('urano')"></div>
+        <div class="div9" onclick="showInfo('netuno')"></div>
+        <div class="div10" onclick="showInfo('plutão')"></div>
+    </section>
+
+    <div>
+    <div id="info-text" class="info-text"></div>
+    </div>
+
+    <div class="button-container">
+        <button onclick="window.location.href='sistemaSolar.html'">Visitar o sistema Solar</button>
+   </div>
+
+   <footer>
+       <p>&copy; 2024 Cursos do Professor Kellton Rodrigo. Todos os direitos reservados.</p>
+   </footer> 
+
+    <script src="planetas.js"></script>
+</body>
+</html>
